@@ -1,0 +1,34 @@
+Lab: Flawed enforcement of business rules.
+
+Buy: Lightweight l33t leather jacket
+Creds: wiener/peter
+
+Coupon -> New customers use code at checkout: NEWCUST5
+
+-------------------------------------------------------
+
+Exploitation:
+
+1. Asusual i logged in, added the "leather jacket" to cart. I applied the coupon. 
+
+--> The coupon reduced $5 price.
+--> I changed the email and try to avail coupon. No way!
+
+2. There was a option called sign up for newsletter at /home at bottom of the page.
+
+--> Signup the newsletter which will give you a coupon code.
+
+SIGNUP30 --> Reduced $401 from the cart.
+
+3. Now repeated with first coupon as NEWCUST5 and then SIGNUP30.
+
+--> It verifies the last coupon only.
+--> It ends up in reducing the overall cost equal to $0.
+
+4. Place the order and boom!!
+
+--------------------------------------------------------
+
+Exploitation: Repeated coupon in the stack (stack coupon reuse not verified).
+
+--------------------------------------------------------

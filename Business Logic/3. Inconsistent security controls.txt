@@ -1,0 +1,36 @@
+Lab: Inconsistent security controls
+
+AIM: Access the admin panel and delete the user carlos.
+
+---------------------------------------------------------
+
+Exploitation:
+
+1. Finding the admin panel
+https://0a1c00c803716314803f76d700a9005d.web-security-academy.net/admin
+Response: Admin interface only available if logged in as a DontWannaCry user
+
+--> The response conforms the admin panel. It can be found using Burp professional (Engagements tools > Discovery)
+
+--> Inorder to gain access i tried to create a admin mail using dontwannacry domain. but it has email verification. As i dont have the email, i used the given email to exploit.
+
+3. Register a user as testuser with below credentials.
+
+username: testuser
+Email: attacker@exploit-0a06004803eb63268068751601320092.exploit-server.net
+password: whatever
+
+--> Once registered, there is above email client button redirects to given mail protol to conform. Once conform, login.
+
+4. Once i logged in, there is a feature called update email.
+Updated email: hackit@dontwannacry.com
+
+--> It doesn't check the email or verifying, directly Admin panel showed up. Boom !!
+
+5. Go to admin panel, remove the user carlos.
+
+---------------------------------------------------------
+
+Exploited: Update email feature (no verification).
+
+---------------------------------------------------------
