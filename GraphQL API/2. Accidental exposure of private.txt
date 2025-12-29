@@ -1,0 +1,25 @@
+Lab: Accidental exposure of private GraphQL fields
+
+Scenerio: A webpage that shows blog posts which is connected with graphql endpoint.
+
+Analysis:
+- API Endpoint: graphql/v1
+
+Task: Login as admin and delete the user "carlos"
+
+Used tool: 
+- InQL (a tool that finds graphql endpoints)
+- Download from github (InQL.jar) and add the tool to extension 
+(burp's extension > Installed > Load > Select file > Add)
+
+------------------------------------------------------------------
+Exploitation:
+1. Load the InQL extension.
+2. Access the lab and the graphql endpoints are highlighted.
+3. Copy the url and paste on InQL extension
+4. Under Queries --> there is a query called "getUser". Select and send to repeater.
+5. In repeater (InQL tab), there is variable id=0 which returns null
+6. Change the id=1,2,3 to check if it is vulnerable, actually it exposes username aand password.
+7. Get the credentials and login as admin and delete the user.
+
+-----------------------------------------------------------------
