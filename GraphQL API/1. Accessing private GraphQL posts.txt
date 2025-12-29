@@ -1,0 +1,18 @@
+GRAPHQL LAB-1
+
+Accessing private GraphQL posts
+
+Scenerio: There is a webpage containing posts with id where one post is hidden (task: find the password of that post)connected by graphql endpoints.
+
+Analysis:
+- API Endpoint: /graphql/v1
+- Hidden post id: 3
+- getBlogPost --> allows is to get the post content 
+
+Exploitation:
+- Capture request of any other post to access "getBlogPost".
+- Add a query "postPassword" and change the id variable to 3.
+- Send the request --> In response we will get the password.
+
+Password: tk15i3sj2vhv0l9be16bsmemj9dle5ix
+Boom !!
