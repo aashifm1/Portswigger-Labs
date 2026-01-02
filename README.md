@@ -1,4 +1,4 @@
-# PortSwigger Web Security Academy Lab Solutions
+# PS Web Security Academy Labs
 
 ![ps-lab-wp](https://github.com/user-attachments/assets/b839ed5f-aaf1-49da-897c-43e1d89e5fc7)
 
