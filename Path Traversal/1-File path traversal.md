@@ -21,8 +21,11 @@ Access the `/etc/passwd` file.
 
 **Result:**
 
+<img width="1434" height="703" alt="Screenshot 2026-04-07 102434" src="https://github.com/user-attachments/assets/203b7cca-0f63-447c-943b-e5c645ff1a4f" />
+
 - Successfully retrieved the `/etc/passwd` file.
 
 **Conclusion:**
+
 
 - This vulnerability is known as a **Path Traversal (Directory Traversal)** vulnerability.
