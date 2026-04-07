@@ -10,6 +10,8 @@ Access the `/etc/passwd` file.
 - Observed the URL parameter:  
   `?filename=path`
 
+<img width="925" height="550" alt="image1" src="https://github.com/user-attachments/assets/1e1ba6cd-7a24-42f3-bde1-b7c1d0b768b4" />
+
 - Intercepted the request in Burp Suite.
 - Modified the `filename` parameter to:
 
@@ -21,7 +23,7 @@ Access the `/etc/passwd` file.
 
 **Result:**
 
-<img width="1434" height="703" alt="Screenshot 2026-04-07 102434" src="https://github.com/user-attachments/assets/203b7cca-0f63-447c-943b-e5c645ff1a4f" />
+<img width="1434" height="703" alt="image2" src="https://github.com/user-attachments/assets/203b7cca-0f63-447c-943b-e5c645ff1a4f" />
 
 - Successfully retrieved the `/etc/passwd` file.
 
