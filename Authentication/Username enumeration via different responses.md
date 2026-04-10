@@ -44,10 +44,14 @@ When finnding password:
 
 checks the length while invalid gives same response when bruteforce
 
+<img width="800" height="563" alt="Screenshot 2026-04-09 184540" src="https://github.com/user-attachments/assets/5c1ef469-1b53-442b-a44d-bbb57e6adcde" />
+
+
 ## FInal correct credentials
 
+```bash
 username: autodiscover
-
 password: 123123
+```
 
 **Boom lab solved**
