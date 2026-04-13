@@ -2,8 +2,10 @@
 
 > Task: To change the stock api to `http://localhost/admin` and delete the user `carlos`.
 
-
 There are plenty of posts with stock check functionality over city names.
+
+" src="https://github.com/user-attachments/assets/4a0f8cc3-b92d-4218-9299-5745c32b7757" />
+
 
 Once i checked stock, it generates a apikey.
 
@@ -13,19 +15,8 @@ stockApi=http%3A%2F%2Fstock.weliketoshop.net%3A8080%2Fproduct%2Fstock%2Fcheck%3F
 
 The stockapi is changed to http://localhost/admin which responded with,
 
-```bash
-<section>
-	<h1>Users</h1>
-	<div>
-		<span>wiener - </span>
-		<a href="/admin/delete?username=wiener">Delete</a>
-	</div>
-	<div>
-		<span>carlos - </span>
-		<a href="/admin/delete?username=carlos">Delete</a>
-	</div>
-</section>
-```
+<img width="665" height="118" alt="image1<img width="1326" height="147" alt="image2" src="https://github.com/user-attachments/assets/2604da5b-e999-492f-aff5-c4f178188bfe" />
+
 
 Now i checked the stockApi with manipulated endpoint.
 
@@ -34,3 +25,5 @@ stockApi=http://localhost/admin/delete?username=carlos
 ```
 
 It deleted the user 'carlos' and the lab is solved
+
+<img width="1371" height="568" alt="image" src="https://github.com/user-attachments/assets/6477094b-01e8-4882-b211-6c2f5cc067c4" />
