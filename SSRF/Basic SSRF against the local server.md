@@ -5,7 +5,7 @@
 There are plenty of posts with stock check functionality over city names.
 
 
-<img width="320" height="118" alt="image1" src="https://github.com/user-attachments/assets/4a0f8cc3-b92d-4218-9299-5745c32b7757" />
+<img width="480" height="118" alt="image1" src="https://github.com/user-attachments/assets/4a0f8cc3-b92d-4218-9299-5745c32b7757" />
 
 
 Once i checked stock, it generates a apikey.
@@ -16,7 +16,7 @@ stockApi=http%3A%2F%2Fstock.weliketoshop.net%3A8080%2Fproduct%2Fstock%2Fcheck%3F
 
 The stockapi is changed to http://localhost/admin which responded with,
 
-<img width="1326" height="147" alt="image2" src="https://github.com/user-attachments/assets/2604da5b-e999-492f-aff5-c4f178188bfe" />
+<img width="900" height="500" alt="image2" src="https://github.com/user-attachments/assets/2604da5b-e999-492f-aff5-c4f178188bfe" />
 
 
 Now i checked the stockApi with manipulated endpoint.
