@@ -16,7 +16,7 @@ stockApi=http%3A%2F%2Fstock.weliketoshop.net%3A8080%2Fproduct%2Fstock%2Fcheck%3F
 
 The stockapi is changed to http://localhost/admin which responded with,
 
-<img width="900" height="500" alt="image2" src="https://github.com/user-attachments/assets/2604da5b-e999-492f-aff5-c4f178188bfe" />
+<img width="600" height="200" alt="image2" src="https://github.com/user-attachments/assets/2604da5b-e999-492f-aff5-c4f178188bfe" />
 
 
 Now i checked the stockApi with manipulated endpoint.
